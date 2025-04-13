@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = '7293327941:AAE3gElHwSbbtvhaJbiDzcQvr-N_GO3gRFY'
+TOKEN = '7293327941:AAESycYCFG9gMbTL2Lw0Z2gAo31xFeNgplg'
 CHAT_ID = '-1002624398086'
 
 NICKNAME, POSITION, QUERY = range(3)
@@ -62,7 +62,7 @@ async def button_handler(update: Update, context: CallbackContext) -> None:
         response = {
             'Владелец центра редакции 🤝': 'John_Moon - @attwood30',
             'Заведующий центра редакции✔️': 'Kaya_Murphy - @bbtatti',
-            'Состав заместителей 🚚': 'Amsterdam_Forever - @sssk2226 \nDanill_Lester - @bebramanm \nJuggernaut_Kushida - @Dgust1n',
+            'Состав заместителей 🚚': 'Vadim_Heiliger - @VadimKrutYa\nJonh_Makler - @RemakeProject\nJesus_Nightmare - @Dima_Pivo117\n Qwis_Moon - @qwiso4ka',
             'Ценовая политика должностей 💰': '6 ранг - 5О.ООО.ООО$/месяц \n 7 ранг - 7О.ООО.ООО$/месяц \n 8 ранг - I2O.OOO.OOO$/месяц',
             'Заявления на пост заместителя🤵‍♂️': 'Для подачи заявлние на пост заместителя - обращайтесь к Заведующему центра редакции - @bbtatti'
         }.get(user_choice)
